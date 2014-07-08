@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Sanchez', 'Helvetica Neue Light', 'Helvetica Neue' serif;
+    font-family:'Sanchez Slab W03';'Helvetica Neue Light', 'Helvetica Neue' serif;
     /*font-weight: 300;*/
     font-size: 16px;
     color: #3e474c;
@@ -21,7 +21,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: 'Arimo', 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:'Proxima Nova W01';
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -31,6 +31,7 @@ p {
     font-size: 1em;
     line-height: 1.5;
     text-align: left;
+    font-family: 'Helvetica Neue';
 }
 
 @media(min-width:767px) {
@@ -205,7 +206,7 @@ a:focus {
 
 .solution p {
     font-family: 'Sanchez', Georgia, serif;
-    font-size: 1.3em;
+    font-size: 1em;
 
 }
 
@@ -428,8 +429,7 @@ a:focus {
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: #dadfe1;
 }
 
 img::selection {
@@ -615,4 +615,8 @@ img.desaturate:hover {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+#related {
+    background: url(img/portfolio/hmda/hmda_stickies_bg.jpg) no-repeat top left scroll;
 }
