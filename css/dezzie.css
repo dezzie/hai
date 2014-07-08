@@ -19,8 +19,6 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
-    font-weight: 700;
     letter-spacing: 1px;
 }
 
@@ -53,21 +51,16 @@ a:focus {
     color: #176e61;
 }
 
-.light {
-    font-weight: 400;
+
 }
 
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
-    font-weight:400; 
-    font-style: Semibold;
     background-color: #000;
 }
 
 .navbar-brand {
-    font-weight: 700;
 }
 
 .navbar-brand:focus {
@@ -374,8 +367,6 @@ a:focus {
 }
 
 .btn {
-    text-transform: uppercase;
-    font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -627,13 +618,11 @@ img.desaturate:hover {
 }
 
 #related h2 {
-    text-transform: none;
     letter-spacing: 0px;
     margin-bottom: .5em;
 }
 
 #related h3 {
-    text-transform: none;
     font-size: 1.25em;
     letter-spacing: 0px;
     margin-bottom: .5em;
