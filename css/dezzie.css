@@ -63,7 +63,9 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family:'Proxima Nova W01'; 
+    font-weight:400; 
+    font-style: Semibold;
     background-color: #000;
 }
 
