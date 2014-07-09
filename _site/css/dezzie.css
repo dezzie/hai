@@ -695,6 +695,9 @@ img.desaturate:hover {
 #related h2 {
     letter-spacing: 0px;
     margin-bottom: .5em;
+    float: left;
+    display: inline;
+    clear: both;
 }
 
 #related h3 {
@@ -725,8 +728,9 @@ img.desaturate:hover {
 #meta {
 }
 
+
 .nav-pills {
-    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -741,6 +745,7 @@ img.desaturate:hover {
     background-color: #dadfe1;
 }
 
+
 #tags {
     padding-top: 20px;
 }
@@ -749,11 +754,14 @@ img.desaturate:hover {
     float: left;
     display: inline;
     clear: both;
+    width: 125px;
     font-size: 1em;
     text-transform: uppercase;
     margin-right: 1em;
-    margin-top: 1em;
+    margin-top: .75em;
     margin-bottom: 0;
-    vertical-align: middle;
 }
 
+.project-tags {
+    max-width: 200px;
+}
