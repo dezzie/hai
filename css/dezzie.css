@@ -103,10 +103,19 @@ a:focus {
     letter-spacing: 1px;
 }
 
-.navbar-brand {
-    font-family:'Proxima Nova W01'; 
-    font-weight:400; 
-    font-style:Semibold;
+.face {
+    background-image: url("../img/face.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 50px;
+}
+
+.face a {
+    text-indent: -9999px;
+    display: block;
+    min-height: 50px;
+    color: #FFFFFF;
 }
 
 .navbar-brand:focus {
@@ -172,7 +181,6 @@ a:focus {
 
 
     .top-nav-collapse {
-        background-image: url("../img/face.svg");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
