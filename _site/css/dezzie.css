@@ -47,6 +47,15 @@ h4 {
     text-transform: uppercase;
 }
 
+
+h5 {
+    font-family:'Proxima Nova W01'; 
+    font-weight:400; 
+    font-style:Semibold;
+    text-transform: uppercase;
+}
+
+
 p {
     margin: 0 0 25px;
     font-size: 1em;
@@ -679,7 +688,8 @@ img.desaturate:hover {
 }
 
 #related {
-    background-color: #dadfe1;
+    /*background-color: #dadfe1;*/
+    /*border-top: 1px solid #dadfe1;*/
 }
 
 #related h2 {
@@ -702,11 +712,48 @@ img.desaturate:hover {
     margin-bottom: 10px;
 }
 
+#footer {
+    background-color: #dadfe1;
+    border-top: 1px solid #c4c4c4;
+}
+
 #footer i {
     font-size: 2em;
     padding-right: .5em;
 }
 
 #meta {
-    background-color: #ffffff;
 }
+
+.nav-pills {
+    margin-top: 5px;
+}
+
+
+.nav-pills>li{
+    font-family:'Proxima Nova W01';
+    font-weight: 200; 
+    font-style: normal;
+}
+
+.nav-pills>li>a {
+    border-radius: 4px;
+    background-color: #dadfe1;
+}
+
+#tags {
+    padding-top: 20px;
+}
+
+.tags h5 {
+    float: left;
+    display: inline;
+    clear: both;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
