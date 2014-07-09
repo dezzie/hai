@@ -7,6 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <link rel="icon" type="image/png" href="img/favibird.ico">
+
     <title>Your friendly neighborhood Dezzie</title>
 
     <!-- Bootstrap Core CSS -->
@@ -14,12 +16,15 @@
 
     <!-- Fonts -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://fast.fonts.net/jsapi/b01dd916-3c12-4452-b732-43d433764b9f.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-    <!-- Custom Theme CSS -->
+    <!-- CSS -->
     <link href="css/dezzie.css" rel="stylesheet">
     <link href="css/animations.css" rel="stylesheet">
+    <link href="css/hoverex-all.css" rel="stylesheet">
+    <link href="css/brandfont.css" rel="stylesheet">
+
 
 </head>
 
@@ -27,13 +32,12 @@
 
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header page-scroll">
-                <!--<a class="navbar-brand" href="#page-top">Dezzie</a>-->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"></button>
-                <a class="navbar-brand" href="#page-top">
-                    <span class="light">Dezzie</span>
-                </a>
+            <div class="col-xs-6 col-sm-4 text-center">
             </div>
+            <div class="col-xs-6 col-sm-4 text-center">
+            <div class="face"><a href="index.html">HAI</a></div>
+            </div>
+            <div class="col-xs-6 col-sm-4">
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
@@ -41,78 +45,68 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
+                        <a href="hmda.html">Work</a>
+                    </li>
+                    <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#download">Download</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
+                        <a href="#resume">Resume</a>
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+            </div><!-- /.navbar-collapse -->
+        </div><!--the cols-->
+        </div><!-- /.container -->
     </nav>
 
-    <section class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div id="my-face" class="slideDown"><img src="img/face.svg"></div>
-                        <p class="intro-text">Has long arms.</p>
-                        <div class="page-scroll">
-                            <a href="#about" class="btn btn-circle">
-                                <i class="fa fa-angle-double-down animated"></i>
-                            </a>
-                        </div>
-                    </div>
+
+    <section id="main-hero" class="hai">
+        <div class="container hai">
+                <div id="my-face" class="text-center slideDown">
+                    <img src="img/face.svg"></div>
+                    <p class="text-center intro-text">Has long arms.</p>
                 </div>
-            </div>
         </div>
     </section>
-
-    <section id="about" class="container content-section text-center">
-        <div class="row">
+    
+    <section id="short-bio" class="content-section">
+        <div class="container">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About</h2>
-                <p>Loo loo loo</p>
+            <p class="text-center">Desiree García is a user experience designer for the Consumer Financial Protection Bureau (CFPB) in Washington, DC. She really does have long arms.</p>
             </div>
         </div>
     </section>
 
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>This is a header</h2>
-                    <p>loo loo loo got some apples</p>
-                    <a href="" class="btn btn-default btn-lg">Loo</a>
-                </div>
-            </div>
+    <section id="work" class="content-section">
+        <div class="container">
+
         </div>
     </section>
+ 
 
-    <section id="contact" class="container content-section text-center">
+<section id="footer" class="content-section">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <p>Feel free to email...</p>
-                <ul class="list-inline banner-social-buttons">
-                    <li><a href="" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li><a href="" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li><a href="" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
+            <div class="col-md-8">
+                <p>The best way to get in touch with me is via Twitter:<br>
+                    <a href="https://twitter.com/intent/tweet?screen_name=thedezzie" class="twitter-mention-button" data-related="thedezzie">Tweet to @thedezzie</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </p>
+            </div>
+            
+            <div class="col-md-4">
+                <a href="http://github.com/dezzie" target="new"><i class="fa fa-github"></i></a>
+                <a href="http://www.linkedin.com/pub/desiree-zamora-garcia/13/512/421/" target="new"><i class="fa fa-linkedin"></i></a>
+                <a href="http://twitter.com/thedezzie" target="new"><i class="fa fa-twitter"></i></a>
+                <a href="http://www.last.fm/user/missdezzie" target="new"><i id="bf-lastfm" class="bf-lastfm size-48"></i></a>
+                <a href="http://instagram.com/thedezzie" target="new"><i class="fa fa-instagram"></i></a>
+                <a href="mailto:desiree.z.garcia@gmail.com" target="new"><i class="fa fa-envelope"></i></a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-<!-- Core JavaScript Files -->
+
+    <!-- Core JavaScript Files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
@@ -121,9 +115,6 @@
     <script src="js/jquery.hoverdir.js"></script>
     <script src="js/jquery.hoverex.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
-
-
-
     <script src="js/dezzie.js"></script>
 
 </body>

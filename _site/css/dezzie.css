@@ -779,3 +779,26 @@ img.desaturate:hover {
 .project-tags {
     max-width: 200px;
 }
+
+.hai {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.hai img {
+    margin-bottom: 10px;
+}
+
+.main-hero {
+    display: table;
+    width: 100%;
+    height: 75%;
+    padding: 100px 0;
+    text-align: center;
+    color: #333333;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
