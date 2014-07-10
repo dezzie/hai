@@ -734,6 +734,10 @@ img.desaturate:hover {
     border-top: 1px solid #c4c4c4;
 }
 
+    #footer p {
+        font-size: .75em;
+    }
+
 #footer i {
     font-size: 2em;
     padding-right: .5em;
