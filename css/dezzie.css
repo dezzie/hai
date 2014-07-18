@@ -76,6 +76,7 @@ p {
 
 a {
     color: #ed6b5b;
+    font-style: normal;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -805,4 +806,13 @@ img.desaturate:hover {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.api {
+    background: url(../img/api.jpg) no-repeat top left scroll;
+
+}
+
+.prepaids {
+    background: url(../img/prepaids_2.jpg) no-repeat top left scroll;
 }
