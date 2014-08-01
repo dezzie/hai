@@ -39,12 +39,23 @@ h2 {
     font-size: 1.5em;
     }
 
+h3 {
+    font-family:'Sanchez Slab W03'; 
+    font-weight:200; 
+    font-style: normal;
+    font-size: 2.25em;
+    margin-bottom: 0;
+    }  
+
 h4 {
     font-family:'Proxima Nova W01';
-    font-weight: 200; 
-    font-style: normal;
-    font-size: 1em;
+    font-weight: 300; 
+    font-style: Regular It;
+    font-size: .85em;
     text-transform: uppercase;
+    margin-bottom:.5em;
+    letter-spacing: 1px;
+
 }
 
 
@@ -68,9 +79,9 @@ p {
 
 @media(min-width:767px) {
     p {
-        margin: 0 0 35px;
-        font-size: 16px;
-        line-height: 1.6;
+        margin: 0 0 1em;
+        font-size: .75em;
+        line-height: 2em;
     }
 }
 
@@ -395,6 +406,11 @@ a:focus {
     padding-bottom: 80px;
 }
 
+.content-section p {
+    font-size: 14px;
+}
+
+
 .secondary-section {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -568,9 +584,25 @@ body {
     padding-left: 0;
 }
 
+.col-md-6 {
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.photo-row {
+    margin-bottom: 3em;
+}
+
+
 img.desaturate {
   -webkit-filter: grayscale(.80);
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 }
 
 img.desaturate:hover {
@@ -749,7 +781,8 @@ img.desaturate:hover {
 
 
 .nav-pills {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
 
 
@@ -760,8 +793,8 @@ img.desaturate:hover {
 }
 
 .nav-pills>li>a {
-    border-radius: 4px;
-    background-color: #dadfe1;
+    border-radius: 6px;
+    background-color: #f6f8f8;
 }
 
 
