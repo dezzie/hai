@@ -26,8 +26,8 @@ h6 {
 }
 
 h1 {
-    font-weight: 600 Semi-bold;
-    font-style: italic;
+    font-weight: 600;
+    font-style: Semi-bold;
     font-family:'Sanchez Slab W03';
     font-size: 3em;
 }
@@ -48,9 +48,9 @@ h3 {
     }  
 
 h4 {
-    font-family:'Proxima Nova W01';
-    font-weight: 300; 
-    font-style: Regular It;
+    font-family:'Proxima Nova W08';
+    font-weight: 400; 
+    font-style: Regular;
     font-size: .85em;
     text-transform: uppercase;
     margin-bottom:.5em;
@@ -230,6 +230,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-style: normal;
 }
 
 .about {
@@ -243,6 +244,7 @@ a:focus {
     margin-bottom: 2em;
 }
 
+
 .about h1 {
     margin-bottom: 0;
 }
@@ -253,12 +255,17 @@ a:focus {
 }
 
 .about h4 {
-    margin-bottom: 0;
+    margin-bottom:.5em;
 }
 
 .about p {
     margin-bottom: 0;
     margin-top: 1.5em;
+}
+
+.intro .col-md-6 {
+        padding-left: 2%;
+        padding-right: 2%;
 }
 
 .pitch {
@@ -328,15 +335,15 @@ a:focus {
 }
 
 .btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #788991;
-    border-radius: 35px;
-    font-size: 40px;
-    color: #788991;
-    background: 0 0;
+    width: 36px;
+    height: 36px;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 20px;
+    font-size: 2em;
+    color: #E3E4E5;
+    background-color:;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -345,8 +352,13 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
     background: rgba(255,255,255,.1);
+}
+
+.page-scroll {
+    padding-left: 48%;
+    bottom: 2%;
+    margin: 0;
 }
 
 .page-scroll .btn-circle i.animated {
@@ -601,7 +613,7 @@ body {
 
 
 img.desaturate {
-  -webkit-filter: grayscale(.80);
+  -webkit-filter: grayscale(.50);
   /*margin-bottom: 10px;*/
 }
 
@@ -747,7 +759,7 @@ img.desaturate:hover {
     margin-bottom: 0em;
     font-family:'Sanchez Slab W03'; 
     font-weight:200; 
-    font-style: italic; 
+    font-style: italic;
     color: #000000;
 }
 
@@ -782,7 +794,7 @@ img.desaturate:hover {
 
 .nav-pills {
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 
@@ -790,11 +802,14 @@ img.desaturate:hover {
     font-family:'Proxima Nova W01';
     font-weight: 200; 
     font-style: normal;
+    font-size: .75em;
+    margin-right: .25em;
 }
 
 .nav-pills>li>a {
-    border-radius: 6px;
+    border-radius: 4px;
     background-color: #f6f8f8;
+    padding: .5em .75em;
 }
 
 
