@@ -355,28 +355,33 @@ a:focus {
 }
 
 .btn-circle {
-    width: 36px;
-    height: 36px;
+    /*width: 36px;
+    height: 36px;*/
     margin-top: 0;
     padding: 0;
     border: 0;
-    border-radius: 20px;
-    font-size: 2em;
-    color: #BABBBD;
+    /*border-radius: 20px;*/
+    /*font-size: 1em;*/
+    /*color: #BABBBD;*/
     background-color:;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+    font-size: .75em;
+    line-height: 2em;
+    font-family: 'Sanchez Slab W03';
+    font-weight: 300;
+    font-style: normal;
+
 }
 
 .btn-circle:hover,
 .btn-circle:focus {
-    outline: 0;
-    background: rgba(255,255,255,.1);
+    /*outline: 0;*/
+    /*background: #333333;*/
 }
 
 .page-scroll {
-    padding-left: 48%;
     bottom: 2%;
     margin: 0;
 }
