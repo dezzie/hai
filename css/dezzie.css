@@ -45,6 +45,7 @@ h3 {
     font-style: normal;
     font-size: 2.5em;
     margin-bottom: 0;
+    color: #212121;
     }  
 
 h4 {
@@ -74,6 +75,7 @@ h6 {
     text-transform: uppercase;
     margin-bottom:.5em;
     letter-spacing: 1px;
+    color:#212121;
     margin-top: 4em;
 }
 
@@ -254,7 +256,7 @@ a:focus {
 .about {
     background-color: #ffffff;
     opacity:1;
-    color: #333333;
+    color: #212121;
     border: 1px solid #dadfe1;
     padding: 2em 2em .25em 2em;
     position: absolute;
