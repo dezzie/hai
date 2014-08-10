@@ -26,23 +26,16 @@
     <link href="css/brandfont.css" rel="stylesheet">
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom" data-offset="0">
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom, #caseNav" data-offset="0">
 
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container-fluid">
-            <div class="col-md-5 text-center">
-                <ul class="nav nav-pills">
-                    <li><a>Discovery</a></li>
-                    <li><a>Concept</a></li>
-                    <li><a>Interactions</a></li>
-                    <li><a>Testing</a></li>
-                    <li><a>Iteration</a></li>
-                    </ul>
+            <div class="col-md-4 text-center">
             </div>
-            <div class="col-md-2 text-center">
+            <div class="col-md-4 text-center">
             <div class="face"><a href="index.html">HAI</a></div>
             </div>
-            <div class="col-md-5 text-center">
+            <div class="col-md-4 text-center">
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
@@ -84,16 +77,19 @@
 <section id="solution" class="content-section">
         <div class="container">
             <div class="col-lg-8 col-lg-offset-2">
-                <p>Each year, thousands of banks and other financial institutions report data about mortgages to the public as part of the <a href="http://consumerfinance.gov/hmda/learn-more.html" target="new">Home Mortgage Disclosure Act</a>, or <em>“Hum-Dah,"</em> for short. HMDA data is a view of the mortgage market, an important part of the American economy. But with over 18.7 million records reported by 7,400 financial institutions in 2012 alone, the data can be difficult to use. As a user experience designer (and occasional code contributor), I worked to modernize this data into a useful tool for both experts and the curious. <a>Continue reading the case study (8 minutes)</a>.</p>
+                <p>Each year, thousands of banks and other financial institutions report data about mortgages to the public as part of the <a href="http://consumerfinance.gov/hmda/learn-more.html" target="new">Home Mortgage Disclosure Act</a>, or <em>“Hum-Dah,"</em> for short. HMDA data is a view of the mortgage market, an important part of the American economy. But with over 18.7 million records reported by 7,400 financial institutions in 2012 alone, working with the data can be overwhelming. As a user experience designer (and occasional code contributor), I helped deliver a tool that gave users accurate data.</p>
             </div>
+        </div>
+            
     </div>
 </section>
 
 <section id="process">
     <div class="container">
+
         <div class="row">
-        <h6>Context</h6>
-        <p class="context">This project was a joint effort between two areas of the Bureau. A team of mortgage lending industry experts needed to publish a large amount of data as mandated by the <a href="http://www.gpo.gov/fdsys/pkg/PLAW-111publ203/pdf/PLAW-111publ203.pdf#page=723" target="new">Dodd-Frank Act</a>. Members of the Technology and Innovation team were building a new platform to increase public access to open data. The project was an opportunity to increase government transparency, a major goal of the Bureau. Success for the project would be the delivery of a product that gave users accurate data.</p>
+        <h6 id="needfinding">Context</h6>
+        <p class="context">This project was a joint effort between two areas of the Bureau. A team of mortgage lending industry experts needed to publish a large amount of data as mandated by the <a href="http://www.gpo.gov/fdsys/pkg/PLAW-111publ203/pdf/PLAW-111publ203.pdf#page=723" target="new">Dodd-Frank Act</a>. Members of the Technology and Innovation team were building a new platform to increase public access to open data. The project was an opportunity to increase government transparency, a major goal of the Bureau.</p>
         </div>
 
         <!--4 column photo row-->
@@ -223,7 +219,7 @@
 
 <div class="container">
 <!--user research photo row-->
-<h6>Concept Ideation</h6>
+<h6 id="concept">Concept</h6>
 <p class="context">
 The concept behind the CFPB's HMDA project is to expand access to public data by providing tools that will allow people to find answers about to the mortgage lending industry. Prior to the CFPB taking stewardship of this data, the only way to access it was via the Federal Financial Institutions Examination Council (FFIEC)'s website. Only groups of people in-the-know and with access to expensive software could use and make sense of HMDA data. With our tools, all a person needs is an internet browser. 
 </p>
@@ -316,7 +312,7 @@ The concept behind the CFPB's HMDA project is to expand access to public data by
 
 <div class="container">
 <!--start of UI section-->
-            <h6>Forming Interactions</h6>
+            <h6 id="interactions">Forming Interactions</h6>
 
 <p class="context">
     The HMDA UI guides people through narrowing down large parts of data into information they care about. In many cases, this will still be millions of records–and it can be overwhelming, even for expert users. To make this a more user-friendly experience, we baked in cues, tucked things out of the way, and held some hands. A special shout-out needs to go to the folks at Harvest for building the <a href="http://harvesthq.github.io/chosen/">Chosen</a> jQuery library, which made most of this possible.
@@ -484,30 +480,13 @@ The concept behind the CFPB's HMDA project is to expand access to public data by
 
 <div class="container">
 <!--start of testing section-->
-            <h6>Usability testing</h6>
-            <p class="context">We tested HMDA Explore at various stages of development with our expert and non-expert audiences to figure out where our pain points were and to plan future iterations. Because we also had specific goals for UI elements that were based in research, our tests went beyond "general impression" types of tasks. Github played a major role in relaying the feedback we got in these sessions. The wiki feature was used to record findings, and issues were used to request, discuss, and track changes. Github allowed the entire team to join the conversation and follow UX's process.</p>
+            <h6 id="iteration">Iteration</h6>
+            <p class="context">We tested HMDA Explore at various stages of development with our expert and non-expert audiences to figure out where our pain points were and to plan future iterations. Because we also had specific goals for UI elements that were based in research, our usability testing went beyond "general impression" types of tasks. Github played a major role in relaying the feedback we got in these sessions. The wiki feature was used to record findings, and issues were used to request, discuss, and track changes. Github allowed the entire team to join the conversation and follow UX's process.</p>
 </div>
 
 <div class="container">
-                <div class="row content-row">
-                    <div class="col-md-4 portfolio-item">
-                <h3>Iteration </h3>
-                <p>The HMDA UI incorporates research-based design choices that lessen cognitive overload, encouraging selective attention, and communicate abstract information using familiar syntax and plain language.</p>
-            </div>
-
-            <div class="col-md-4 portfolio-item">
-                <p>Ea eros nulla qui dignissim accumsan sed erat, ut dignissim hendrerit. Velit ad tincidunt consectetuer volutpat nulla consectetuer ut iriure dignissim dolore iriuredolor te. Luptatum ut wisi, te accumsan eu augue hendrerit odio vel nisl iriuredolor praesent lobortis accumsan elit minim aliquam hendrerit eu.</p>
-            </div>
-
-            <div class="col-md-4 portfolio-item">
-                <p>Blandit enim ad facilisis autem euismod ut. Dolor esse praesent, facilisi enim quis ea accumsan duis vero feugait, nulla in dolore suscipit. Consequat iusto dolore hendrerit delenit eu wisi euismod luptatum tincidunt, hendrerit quis duis facilisi odio. <a href="hmda2013.html" alt="next year">Go to 2013  <i class="fa fa-angle-right"></i></a></p>
-            </div>
-                </div>
-
-        </div>
-        <!--iteration photo row-->
-
-        <div class="container">
+            
+<div class="container" id="final">
         <div class="row">
 
             <!--first column-->
@@ -564,15 +543,34 @@ The concept behind the CFPB's HMDA project is to expand access to public data by
             <!--end col-->
 
         </div><!--end user research photo row-->
-    </div><!--end iteration container-->
 
+<div class="row content-row">
+                    <div class="col-md-4 portfolio-item">
+                <h3>4.</h3>
+                <p>The HMDA UI incorporates research-based design choices that lessen cognitive overload, encouraging selective attention, and communicate abstract information using familiar syntax and plain language.</p>
+            </div>
+
+            <div class="col-md-4 portfolio-item">
+                <p>Ea eros nulla qui dignissim accumsan sed erat, ut dignissim hendrerit. Velit ad tincidunt consectetuer volutpat nulla consectetuer ut iriure dignissim dolore iriuredolor te. Luptatum ut wisi, te accumsan eu augue hendrerit odio vel nisl iriuredolor praesent lobortis accumsan elit minim aliquam hendrerit eu.</p>
+            </div>
+
+            <div class="col-md-4 portfolio-item">
+                <p>Blandit enim ad facilisis autem euismod ut. Dolor esse praesent, facilisi enim quis ea accumsan duis vero feugait, nulla in dolore suscipit. Consequat iusto dolore hendrerit delenit eu wisi euismod luptatum tincidunt, hendrerit quis duis facilisi odio. <a href="hmda2013.html" alt="next year">Go to 2013  <i class="fa fa-angle-right"></i></a></p>
+            </div>
+                </div>
+
+        </div>
+        <!--iteration photo row-->
+
+
+
+    </div><!--end iteration container-->
 
 </section><!--end of case study-->
 
 <section id="hmda-showcase" class="showcase">
-        <div class="container-fluid">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
+        <div class="container">
+            <div class="col-md-7">
                 <div id="tour" class="carousel slide" data-interval="false">
                           <!-- Indicators -->
                           <ol class="carousel-indicators">
@@ -583,6 +581,9 @@ The concept behind the CFPB's HMDA project is to expand access to public data by
                             <li data-target="#tour" data-slide-to="4"></li>
                             <li data-target="#tour" data-slide-to="5"></li>
                             <li data-target="#tour" data-slide-to="6"></li>
+                            <li data-target="#tour" data-slide-to="7"></li>
+                            <li data-target="#tour" data-slide-to="8"></li>
+                            <li data-target="#tour" data-slide-to="9"></li>
                           </ol>
                         
                           <!-- Wrapper for slides -->
@@ -633,7 +634,13 @@ The concept behind the CFPB's HMDA project is to expand access to public data by
                                 </a>
             </div>
         </div>
-        <div class="col-md-3"></div>
+
+         <div class="col-md-5">
+            <div class="row">
+                <h2>Final/Current<br> implementation</h2>
+                <p>Our January 2014 launch got 3090 unique views the first day.</p>
+            </div>
+            </div>
 
       </div>
 

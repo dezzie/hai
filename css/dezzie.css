@@ -455,7 +455,8 @@ a:focus {
 
 
 .secondary-section {
-    padding-top: 50px;
+    margin-top: 20px;
+    padding-top: 80px;
     padding-bottom: 50px;
 }
 
@@ -473,13 +474,29 @@ a:focus {
 
 #hmda-showcase {
     width: 100%;
-    color: #fff;
     background-color: #91b0ba;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     border-bottom: 1px solid #dadfe1;
+}
+
+
+.showcase h2 {
+    font-size: 3em;
+    color: #212121;
+    margin-top: 50%;
+    margin-bottom: 0;
+    margin-left: 5%;
+    padding-top: 10%;
+    font-style: normal;
+    letter-spacing: 0;
+    font-weight: 500;
+}
+.showcase p {
+    margin-left: 5%;
+    color: #212121;
 }
 
 #map {
@@ -580,6 +597,7 @@ body {
 .carousel-control {
     width: 50%;
     font-size: 32px;
+    top: 75%;
 }
 
 .carousel-indicators {
@@ -615,11 +633,11 @@ body {
 .carousel:hover .carousel-control { visibility: visible; }
 
 .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
-    left: 5%;
+    left: -15%;
 }
 
 .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-right {
-    right: 5%;
+    right: -10%;
 }
 
 .col-md-3 {
@@ -818,6 +836,7 @@ img.desaturate:hover {
 .secondary-section img {
     margin-bottom: 10px;
 }
+
 
 #footer {
     background-color: #dadfe1;
