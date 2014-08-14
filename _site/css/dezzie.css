@@ -682,14 +682,16 @@ body {
 }
 
 
+/* this breaks retina screens 
 img.desaturate {
   -webkit-filter: grayscale(.50);
-  /*margin-bottom: 10px;*/
-}
+} */
 
+/*
 img.desaturate:hover {
     -webkit-filter: grayscale(.20);
 }
+*/
 
 #process .portfolio-item {
     right: 0;
