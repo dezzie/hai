@@ -4,8 +4,8 @@ body {
     font-size: 16px;
     color: #3e474c;
     background-color: #f6f8f8;
-    font-family: 'Proxima Nova W01','Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-style: normal;
+    font-family: 'Proxima Nova W08','Helvetica Neue', Helvetica, Arial, sans-serif;
+
 
 }
 
@@ -22,30 +22,29 @@ h5,
 h6 {
     margin: 0 0 35px;
     letter-spacing: 1px;
-    font-family:'Sanchez Slab W03';
+    font-family:'Sanchez W03';
 }
 
 h1 {
     font-weight: 600;
     font-style: Semi-bold;
-    font-family:'Sanchez Slab W03';
+    font-family:'Sanchez W03';
     font-size: 3em;
 }
 
 h2 {
-    font-family:'Sanchez Slab W03'; 
-    font-weight:200; 
-    font-style: normal;
-    font-size: 1.5em;
+    font-family:'Sanchez W03'; 
+    font-weight:300; 
+    font-style: Regular;
+    font-size: 2em;
     }
 
 h3 {
-    font-family:'Sanchez Slab W03'; 
-    font-weight:200; 
-    font-style: normal;
     font-size: 2.5em;
     margin-bottom: 0;
     color: #212121;
+    font-family:'Sanchez W03'; 
+    font-weight: 300;
     }  
 
 h4 {
@@ -71,7 +70,7 @@ h6 {
     font-family:'Proxima Nova W01'; 
     font-weight:300; 
     font-style:Regular It;
-    font-size: .85em;
+    font-size: 1em;
     text-transform: uppercase;
     margin-bottom:.5em;
     letter-spacing: 1px;
@@ -81,37 +80,35 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: .75em;
+    font-size: .85em;
     line-height: 1.5;
     text-align: left;
-    font-family:'Sanchez Slab W03'; 
+    font-family:'Sanchez W03'; 
     font-weight: 300; 
-    font-style:normal;
 }
 
 .big-text {
-    font-size: 1.25em;
+    text-align: left;
 }
 
 p.context {
-font-family:'Proxima Nova W08';
+    font-family:'Proxima Nova W08';
     font-weight: 400; 
     font-style: Regular;
-    font-size: .85em;
+    font-size: .9em;
     margin-bottom:.5em;
 }
 
 @media(min-width:767px) {
     p {
         margin: 0 0 1em;
-        font-size: .75em;
+        font-size: .88em;
         line-height: 2em;
     }
 }
 
 a {
     color: #ed6b5b;
-    font-style: normal;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -257,6 +254,10 @@ a:focus {
     font-style: normal;
 }
 
+.intro a {
+    font-weight: 300;
+}
+
 .about {
     background-color: #ffffff;
     opacity:1;
@@ -275,6 +276,10 @@ a:focus {
 .about h2 {
     margin-bottom: 0;
     line-height: 1.75em;
+}
+
+.about h3 {
+    font-size: 2em;
 }
 
 .about h4 {
@@ -299,9 +304,7 @@ a:focus {
 
 .pitch p {
     font-size: 1.6em;
-    font-family:'Sanchez Slab W03'; 
-    font-weight:200; 
-    font-style:normal;
+    font-family:'Sanchez W03'; 
 
 }
 
@@ -343,6 +346,11 @@ a:focus {
     border:;
 }
 
+.portfolio-item p {
+    font-style: Regular;
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 @media(min-width:767px) {
     .intro {
@@ -375,9 +383,6 @@ a:focus {
     transition: background .3s ease-in-out;
     font-size: .85em;
     line-height: 2em;
-    font-family: 'Sanchez Slab W03';
-    font-weight: 200;
-    font-style: normal;
 
 }
 
@@ -456,7 +461,7 @@ a:focus {
 }
 
 .content-section p {
-    font-size: .85em
+    font-size: 1em
 }
 
 
@@ -497,12 +502,12 @@ a:focus {
     padding-top: 10%;
     font-style: normal;
     letter-spacing: 0;
-    font-weight: 500;
     margin-left: -15%;
 }
 .showcase p {
     color: #212121;
     margin-left: -15%;
+    margin-top: 75%;
 }
 
 #map {
@@ -654,8 +659,6 @@ body {
 
 .col-md-6 {
     width: 50%;
-    padding-right: 0;
-    padding-left: 0;
 }
 
 .row {
@@ -676,22 +679,13 @@ body {
     margin-top: 1em;
 }
 
-.nested-photo-row {
+.nested-photo-row .col-md-6 {
     margin-bottom: 0;
     margin-top: 0;
+    padding-right: 0;
+    padding-left: 0;;
 }
 
-
-/* this breaks retina screens 
-img.desaturate {
-  -webkit-filter: grayscale(.50);
-} */
-
-/*
-img.desaturate:hover {
-    -webkit-filter: grayscale(.20);
-}
-*/
 
 #process .portfolio-item {
     right: 0;
@@ -710,14 +704,14 @@ img.desaturate:hover {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: #91b0ba;
+    background: #ffffff;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
 
 #process .portfolio-item .portfolio-link .caption:hover {
-    opacity: .75;
+    opacity: .50;
 }
 
 #process .portfolio-item .portfolio-link .caption .caption-content {
@@ -727,8 +721,8 @@ img.desaturate:hover {
     height: 20px;
     margin-top: -12px;
     text-align: center;
-    font-size: 18px;
-    color: #fff;
+    font-size: 2em;
+    color: #000000;
 }
 
 #process .portfolio-item .portfolio-link .caption .caption-content i {
@@ -762,11 +756,27 @@ img.desaturate:hover {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+
+}
+
+.portfolio-modal .modal-content p {
+    font-family: 'Proxima Nova w08';
+    font-weight: 200;
+    line-height: 1.5em;
+    letter-spacing: 1pt;
 }
 
 .portfolio-modal .modal-content h2 {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1em;
+    font-family: 'Proxima Nova w08';
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1pt;
+    padding-bottom: .5em;
+    text-align: left;
+    
+
 }
 
 .portfolio-modal .modal-content img {
@@ -779,9 +789,9 @@ img.desaturate:hover {
 
 .portfolio-modal .close-modal {
     position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
+    top: 30px;
+    right: 75px;
+    /*width: 75px;*/
     height: 75px;
     background-color: transparent;
     cursor: pointer;
@@ -818,9 +828,9 @@ img.desaturate:hover {
     float: left;
     display: inline;
     clear: both;
-    font-family:'Sanchez Slab W03'; 
+    font-family:'Sanchez W03'; 
     font-weight: 500; 
-    font-style:normal;
+    font-style:Bold;
     font-size: 2.25em;
     color: #000000;
 }
@@ -829,17 +839,17 @@ img.desaturate:hover {
     font-size: 2em;
     letter-spacing: 0px;
     margin-bottom: 0em;
-    font-family:'Sanchez Slab W03'; 
-    font-weight:200; 
-    font-style: italic;
+    font-family:'Sanchez W03'; font-weight:300; font-style:Regular;
     color: #000000;
 }
 
 .secondary-section p {
     letter-spacing: 0px;
     margin-bottom: .5em;
-    font-family: 'Sanchez Slab W03';
+    /*
+    font-family: 'Sanchez W03';
     font-weight: 200;
+    font-style:Light;*/
 }
 
 .secondary-section img {
@@ -939,5 +949,10 @@ img.desaturate:hover {
 }
 
 .nd {
-    background: url(../img/nd.jpg) no-repeat center scroll;
+    background: url(../img/icl.jpg) no-repeat center scroll;
+}
+
+.hmda2013 {
+    background: url(../img/hmda2013.png) no-repeat top left scroll;
+
 }
