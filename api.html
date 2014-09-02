@@ -24,6 +24,11 @@
     <link href="css/animations.css" rel="stylesheet">
     <link href="css/hoverex-all.css" rel="stylesheet">
     <link href="css/brandfont.css" rel="stylesheet">
+<!--
+
+    You know, you might say, "Ugh, this is some dirty, messy code." I'm okay with that; I didn't apply for a front-end position :). This has been lots of fun to make. I hope that you looking in my source code is a good thing. Hire meeeeee...
+
+-->
 
 </head>
 
@@ -62,14 +67,14 @@
 
     <section class="api intro" id="what">
                     <div class="col-md-6 text-left about">
-                    <h1>The Docs</h1>
-                    <h3>Home Mortgage Disclosure Act API Documentation</h3>
+                    <h1>API Docs</h1>
+                    <h3>Home Mortgage Disclosure Act (Hum-Dah)</h3>
                     <h4>Consumer Financial Protection Bureau (CFPB)  · 
                     <a href="http://github.com/cfpb/api" title="See the repo"><i class="fa fa-github"></i></a>
                     <a href="http://cfpb.github.io" title="Go to there"><i class="fa fa-external-link fa-fw"></i></a>
                     </h4>
                     <p>Engaging the developer community with better, more usable software documentation.<br>
-                    User Experience · Front-end development   
+                    Lean UX · Front-end development   
                     <div class="page-scroll"><a href="#solution" class="btn btn-circle" title="YMMV"> Read a 0-minute case study <i class="fa fa-angle-double-right animated"></i></a></div>
                 </p>
     </section>
@@ -78,14 +83,269 @@
     <section id="value" class="content-section">
         <div class="pitch">
         <div class="container">
-            <div class="col-lg-8 col-lg-offset-2">
-                <p>The CFPB believes that creating open source software is an important part of government transparency. It wants to make sure that the data it has stewardship over is open and accessible to the public. Their most robust API to date, the Home Mortgage Disclosure Act (HMDA) project was an opportunity for the CFPB to engage the developer community. As a user experience designer, I helped publish actionable documentation that would set the standard for the federal government.</p>
+            <div class="col-lg-10 col-lg-offset-1">
+                <p>The CFPB believes that making public data easy to use is necessary for government transparency. It's a major part of why they release open source software and engage the developer community. With the launch of HMDA, the Bureau saw the perfect opportunity to showcase its toughest API, but they wanted to get their documentation right. Filling both UX and front-end roles, I worked with a lean UX mindset to design content with quick wins and hands-on examples. And in collaboration with 18f, I engaged the local developer community for usability testing and feedback. It's an open effort to maintain content that solves problems–and it's why it has set the standard for software documentation in the federal government.
+                </p>
             </div>
         </div>
     </div>
     </section>
 
+<section id="process">
+    <div class="container">
+        <!--start of CONCEPT section-->
+        <h6>Concept</h6>
+                <div class="row">
+
+            <!--first column-->
+             <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/api/concept_heuristic.png" alt="a deliverable comparing existing doc sites">
+            </div>
+            <!--end col-->
+
+            <!--second column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/api/concept_swagger_thumb.png" alt="screenshot of swagger console">
+            </div>
+            <!--end col-->
+
+
+            <!--third column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/api/concept_goals.jpg" alt="a photo of a concept sketch">
+            </div>
+            <!--end col-->
+
+            <!--fourth column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/api/concept_map.jpg" alt="a photo of a whiteboard sketch of the site map and ideal user journey">
+            </div>
+            <!--end col-->
+
+        </div><!--end user research photo row-->
+
+        <div class="row content-row">
+           
+            <!--first column-->
+            <div class="col-md-6 portfolio-item">
+                <p class="context">The <a href="hmda.html#solution">discovery phase of the HMDA project</a> suggested that in order to reach the developer community, we would need to create a separate engagement effort. With API documentation that addressed developers first and not as adjuncts to advocacy groups or mortgage data experts, devs would better see the CFPB as a potential resource or inspiration for their own work.
+                </p>
+                <p class="context">A heuristic analysis of current project and CFPB documentation saw an opportunity for a more unified brand identity and voice. Other government documentation websites showed a need for living, usable, findable information, with good context and background, and a clear value proposition.</p>
+            </div>
+            <!--end first column-->
+
+            <!--third column-->
+            <div class="col-md-6 portfolio-item">
+                <p class="context">Working closely with the API's author, <a href="http://smashingboxes.com/ideas/who-is-durhams-first-code-academy" target="blank">Clinton Dreisbach</a>, and visual designer <a href="http://mehgan.com" target="blank">Mehgan Iulo</a>, our concept was designed to meet these goals:
+                    <ol>
+                        <li>Bring content in line with CFPB brand and voice</li>
+                        <li>Edit content to speak to HMDA experts too</li>
+                        <li>Design content to solve problems and stay out of the way</li>
+                        </ol>
+                </p> 
+                <p class="context">The idea that hands-on learning is more effective led us to fork the <a href="https://helloreverb.com/developers/swagger" target="blank">Swagger project</a>, whose features leverage the way HMDA API was designed to create an interactive console. However, to avoid creating an insular experience, I pushed for a pedagogic vision–one that introduces concepts approachably and reinforces them before handing over the keys to the car.</p>
+            </div>
+            <!--end third column-->
+        </div><!--end first row-->
+
+
+
+        <!--start of PROTOTYPE section-->
+        <h6>Prototype</h6>
+                <div class="row">
+
+            <!--first column-->
+             <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/api/wireframes.png" alt="a deliverable comparing existing doc sites">
+            </div>
+            <!--end col-->
+
+            <!--second column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/api/prototype.png" alt="screenshot of pull request">
+            </div>
+            <!--end col-->
+
+
+            <!--third column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/api/prototype_Console.png" alt="a screenshot of prototype console">
+            </div>
+            <!--end col-->
+
+
+        </div><!--end photo row-->
+
+        <div class="row content-row">
+        
+            <div class="col-md-6 portfolio-item">
+                <p class="context">Initial concept validation was done using paper prototypes and wireframes. To develop and explore it yet remain lean, we turned to Github. Forking the <a href="http://cfpb.github.io/eregs" target="blank">Eregs documentation repository</a> allowed us to prototype our static content and visual explorations. Forking <a href="">Swagger's repo</a> allowed us to prototype our interactive content. </p>
+            </div>
+
+            <div class="col-md-6 portfolio-item">
                 
+            </div>
+        </div>
+<!-- end PROTOTYPE secion -->
+
+
+        <!--start of Internal Validation section-->
+            <h6 id="iteration">Internal validation</h6>
+            <p class="context">
+                
+            </p>
+
+            
+
+        <div class="row">
+
+            <!--first column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_knope_THUMB.png" alt="knope">
+            </div>
+            <!--end col-->
+
+            <!--second column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_sketch_THUMB.png" alt="user-journey">
+            </div>
+            <!--end col-->
+
+
+            <!--third column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_users.jpg" alt="Actual audience">
+            </div>
+            <!--end col-->
+
+            <!--fourth column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_wires_THUMB.png" alt="working-session">
+            </div>
+            <!--end col-->
+
+        </div><!--end user research photo row-->
+
+        <!--start of testing section-->
+            <h6 id="iteration">External testing</h6>
+            <p class="context">We performed usability testing at various stages of development with expert and non-expert audiences to figure out our pain points and to plan future iterations. Because we also had specific goals for UI elements, particularly around using plain language while preserving familiarity, our usability testing went beyond "general impression"-types of tasks. Github played a major role in relaying feedback, using Issues to request, discuss, and track changes. It allowed the entire team to join the conversation and follow UX's process–especially when we had to do it again the next year. With a new team. In two months. <!--<a href="hmda-2013.html">Read the rest of that story here <i class="fa fa-angle-double-right animated"></i></a> -->
+            </p>
+
+            
+
+        <div class="row">
+
+            <!--first column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_knope_THUMB.png" alt="knope">
+            </div>
+            <!--end col-->
+
+            <!--second column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_sketch_THUMB.png" alt="user-journey">
+            </div>
+            <!--end col-->
+
+
+            <!--third column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_users.jpg" alt="Actual audience">
+            </div>
+            <!--end col-->
+
+            <!--fourth column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_wires_THUMB.png" alt="working-session">
+            </div>
+            <!--end col-->
+
+        </div><!--end user research photo row-->
+
+        <!--start of testing section-->
+            <h6 id="iteration">Learning from user behavior</h6>
+            <p class="context">We performed usability testing at various stages of development with expert and non-expert audiences to figure out our pain points and to plan future iterations. Because we also had specific goals for UI elements, particularly around using plain language while preserving familiarity, our usability testing went beyond "general impression"-types of tasks. Github played a major role in relaying feedback, using Issues to request, discuss, and track changes. It allowed the entire team to join the conversation and follow UX's process–especially when we had to do it again the next year. With a new team. In two months. <!--<a href="hmda-2013.html">Read the rest of that story here <i class="fa fa-angle-double-right animated"></i></a> -->
+            </p>
+
+            
+
+        <div class="row">
+
+            <!--first column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_knope_THUMB.png" alt="knope">
+            </div>
+            <!--end col-->
+
+            <!--second column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_sketch_THUMB.png" alt="user-journey">
+            </div>
+            <!--end col-->
+
+
+            <!--third column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_users.jpg" alt="Actual audience">
+            </div>
+            <!--end col-->
+
+            <!--fourth column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_wires_THUMB.png" alt="working-session">
+            </div>
+            <!--end col-->
+
+        </div><!--end user research photo row-->
+
+        <!--start of testing section-->
+            <h6 id="iteration">Iteration</h6>
+            <p class="context">We performed usability testing at various stages of development with expert and non-expert audiences to figure out our pain points and to plan future iterations. Because we also had specific goals for UI elements, particularly around using plain language while preserving familiarity, our usability testing went beyond "general impression"-types of tasks. Github played a major role in relaying feedback, using Issues to request, discuss, and track changes. It allowed the entire team to join the conversation and follow UX's process–especially when we had to do it again the next year. With a new team. In two months. <!--<a href="hmda-2013.html">Read the rest of that story here <i class="fa fa-angle-double-right animated"></i></a> -->
+            </p>
+
+            
+
+        <div class="row">
+
+            <!--first column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_knope_THUMB.png" alt="knope">
+            </div>
+            <!--end col-->
+
+            <!--second column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_sketch_THUMB.png" alt="user-journey">
+            </div>
+            <!--end col-->
+
+
+            <!--third column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_users.jpg" alt="Actual audience">
+            </div>
+            <!--end col-->
+
+            <!--fourth column-->
+            <div class="col-md-3 portfolio-item">
+                <img class="img-responsive" src="img/portfolio/hmda/hmda_iteration_wires_THUMB.png" alt="working-session">
+            </div>
+            <!--end col-->
+
+        </div><!--end user research photo row-->
+
+
+        <!--start of testing section-->
+            <h6 id="iteration">Final thoughts</h6>
+            <p class="pitch">I learned a lot from this project. It's too easy to forget that developers are also people, also users. While I have experience in front end developent, I essentially had to teach myself how an API works, how to interact with it in order for it to bear fruit. It was important for me to empathize as much as possible with the developer if I was truly to fill a user experience role and not one of a front end coder or copywriter. This led to my belief that a pedagogical approach to software documentation is something that will benefit the developer community as is but also make it more welcoming for others to be a part of it. I also learned a lot about how users felt about the CFPB's open data/transparent government. With this knowledge I know how to empathize with my current HMDA team–a team of full-time x developers and one designer-as we prepare to publish 2013 data, and (a synonym therefore/then) with the broad HMDA audience.
+            </p>
+
+
+</div><!--end container-->
+</section><!--end of case study-->
+
+
+
 <section id="related" class="secondary-section">
     <div class="container">
         <div class="row">
@@ -147,186 +407,6 @@
 </section>
 
 
-
-
-
-<!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="HMDAneedfinding" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>loo loo loo, got some apples</h2>
-                            <img src="img/portfolio/hmda/hmda_process_user_1huge.jpg" class="img-responsive img-centered" alt="">
-                            <p>loo loo loo you got some too</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> <!-- modal end -->
-    <div class="portfolio-modal modal fade" id="HMDApersonas" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>loo loo loo, got some apples</h2>
-                            <img src="img/portfolio/hmda/hmda_process_user_4.png" class="img-responsive img-centered" alt="">
-                            <p>loo loo loo you got some too</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- modal end-->
-    <div class="portfolio-modal modal fade" id="HMDAaha" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>loo loo loo, got some apples</h2>
-                            <img src="img/portfolio/hmda/hmda_process_user_3huge.png" class="img-responsive img-centered" alt="">
-                            <p>loo loo loo you got some too</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--modal end-->
-    <div class="portfolio-modal modal fade" id="HMDAVision" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>loo loo loo, got some apples</h2>
-                            <img src="img/portfolio/hmda/hmda_process_explore_flow_2huge.png" class="img-responsive img-centered" alt="">
-                            <p>loo loo loo you got some too</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- modal end-->
-    <div class="portfolio-modal modal fade" id="HMDAExplore" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>loo loo loo, got some apples</h2>
-                            <img src="img/portfolio/hmda/hmda_process_explore_flow_3huge.png" class="img-responsive img-centered" alt="">
-                            <p>loo loo loo you got some too</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- modal end-->
-    <div class="portfolio-modal modal fade" id="HMDASummary" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>loo loo loo, got some apples</h2>
-                            <img src="img/portfolio/hmda/hmda_process_explore_flow_1huge.png" class="img-responsive img-centered" alt="">
-                            <p>loo loo loo you got some too</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> <!--modal end-->
-    <div class="portfolio-modal modal fade" id="HMDAFiltering" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>loo loo loo, got some apples</h2>
-                            <img src="img/portfolio/hmda/hmda_process_explore_UI_huge.png" class="img-responsive img-centered" alt="">
-                            <p>loo loo loo you got some too</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!--modal end-->
-    <div class="portfolio-modal modal fade" id="HMDAExploreUI" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>loo loo loo, got some apples</h2>
-                            <img src="img/portfolio/hmda/hmda_process_explore_wires_huge.png" class="img-responsive img-centered" alt="">
-                            <p>loo loo loo you got some too</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <!-- Core JavaScript Files -->

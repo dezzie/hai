@@ -64,6 +64,7 @@ h5 {
     font-weight:400; 
     font-style:Semibold;
     text-transform: uppercase;
+    margin-bottom: 1em;
 }
 
 h6 {
@@ -78,6 +79,10 @@ h6 {
     margin-top: 4em;
 }
 
+h6.iteration {
+    margin-top: 0;
+}
+
 p {
     margin: 0 0 25px;
     font-size: .85em;
@@ -85,6 +90,10 @@ p {
     text-align: left;
     font-family:'Sanchez W03'; 
     font-weight: 300; 
+}
+
+ol, ul {
+    font-size: .85em;
 }
 
 .big-text {
