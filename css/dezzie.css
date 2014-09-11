@@ -973,6 +973,6 @@ body {
 }
 
 .booklets {
-    background: url(../img/booklets.png) no-repeat top left scroll;
+    background: url(../img/booklets.png) no-repeat top center scroll;
 
 }
