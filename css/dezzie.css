@@ -873,8 +873,8 @@ body {
 
 
 #footer {
-    background-color: #dadfe1;
-    border-top: 1px solid #c4c4c4;
+    background-color: #f6f8fa;
+    /*border-top: 1px solid #c4c4c4;*/
 }
 
     #footer p {
@@ -955,24 +955,30 @@ body {
 }
 
 .api {
-    background: url(../img/api.jpg) no-repeat top left scroll;
+    background: url(../img/api.jpg) top left scroll;
+    background-size: 100%;
 
 }
 
 .prepaids {
     background: url(../img/prepaids.jpg) no-repeat top left scroll;
+    background-size: 100%;
 }
 
 .nd {
-    background: url(../img/icl.jpg) no-repeat center scroll;
+    background: url(../img/icl.jpg) top left scroll;
+    background-size: 100%;
 }
 
 .hmda2013 {
-    background: url(../img/hmda2013.png) no-repeat top left scroll;
+    background: url(../img/hmda2013.png) top left scroll;
+    background-size: 100%;
 
 }
 
 .booklets {
-    background: url(../img/booklets.png) no-repeat top center scroll;
+    background: url(../img/booklets.png) no-repeat center scroll;
+    background-size: 100%;
 
 }
+

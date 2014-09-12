@@ -1,72 +1,19 @@
+---
+layout: 
+title: Desiree Zamora Garcia's UX portfolio
+overview: true
+---
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <link rel="icon" type="image/png" href="img/favibird.ico">
-
     <title>Case Study - Institute of Church Life at the University of Notre Dame</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Fonts -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="http://fast.fonts.net/jsapi/b01dd916-3c12-4452-b732-43d433764b9f.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- CSS -->
-    <link href="css/dezzie.css" rel="stylesheet">
-    <link href="css/animations.css" rel="stylesheet">
-    <link href="css/hoverex-all.css" rel="stylesheet">
-    <link href="css/brandfont.css" rel="stylesheet">
-    <link href="css/elusive-webfont.css" rel="stylesheet">
-</head>
+    <meta charset="utf-8">
+    {% include header.html %}
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom, #caseNav" data-offset="0">
 
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
-            <div class="col-md-5">
-            </div>
-            <div class="col-md-2">
-            <div class="face" title="Stop hitting yourself!"><a href="index.html">HAI</a></div>
-            </div>
-            <div class="col-md-5">
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            Work <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="hmda.html">1. HMDA </a></li>
-                            <li><a href="api.html">2. API</a></li>
-                            <li><a href="prepaids.html">3. Prepaids</a></li>
-                            <li><a href="nd.html">4. Notre Dame</a></li>
-                            <li><a href="readthis.html">5. TILA-RESPA</a></li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <a href="about.html" title="Who is this person?">About</a>
-                    </li>
-                    <li class="">
-                        <a href="/download/hire_desiree_garcia.pdf" title="View it or download it">Resume</a>
-                    <li class="">
-                       <a href="mailto:desiree.z.garcia@gmail.com" title="A tricky time never stops">Say Hello</a>
-                   </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!--the cols-->
-        </div><!-- /.container -->
-    </nav>
-
+           {% include nav.html %}
 <section class="intro nd" id="what">
                     <div class="col-md-6 text-left about">
                     <h1>Outward and visible signs</h1>
@@ -204,7 +151,8 @@
         </div>
         </div>
     </div>
-
+</section>
+{% include footer.html %}
 
 
     <!-- Core JavaScript Files -->
