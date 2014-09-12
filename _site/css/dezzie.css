@@ -981,4 +981,19 @@ body {
     background-size: 100%;
 
 }
+.mah_face {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    padding-bottom: 2em;
+}
 
+.non-work {
+    background-color: #ffffff;
+}
+
+.plain {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: #FFFFFF;
+}
