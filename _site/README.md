@@ -1,6 +1,10 @@
 hai
 ===
 
+This is my User Experience portfolio. 
+
+You know, I'm really tidy, clean, organized, and love rules for many things in my life. Code is not one of them.
+
 ### Colophon
 
 The typeface on my PDF resume stuff is Arquitecta.
