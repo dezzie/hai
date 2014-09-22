@@ -982,10 +982,11 @@ body {
 
 }
 .mah_face {
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
     border-radius: 50%;
-    padding-bottom: 2em;
+    padding-bottom: 0;
+    margin-bottom: 2em;
 }
 
 .non-work {
