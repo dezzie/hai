@@ -1,17 +1,12 @@
 hai
 ===
 
-This is my User Experience portfolio. 
-The front-end was made from scratch by me. All photos should be mine. Almost all graphics are mine too.
+Grab my latest portfolio [here](https://github.com/dezzie/hai/blob/gh-pages/download/desiree_garcia_portfolio_dec_2014.pdf)
+If you want, my resume is [here](https://github.com/dezzie/hai/blob/gh-pages/download/hire_dezzie.pdf) too. 
 
 
 
+**Colophon**
 
-### Colophon
-
-The typeface on my PDF resume stuff is Arquitecta.
-
-The typeface on here is Sanchez.
-
-I am using the Elusive-Icons Webfont.
+The typeface on all my stuff is Arquitecta, made by Latinotype. Its name is a pun for what they make. It is also a pun for what I am doing right now.
 
